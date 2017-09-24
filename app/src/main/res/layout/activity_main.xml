@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/nameText"
+            android:id="@+id/q0_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -173,7 +173,7 @@
                 android:orientation="vertical">
 
                 <CheckBox
-                    android:id="@+id/checkBox_false"
+                    android:id="@+id/checkBox_static"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -181,7 +181,7 @@
 
 
                 <CheckBox
-                    android:id="@+id/checkBox_true"
+                    android:id="@+id/checkBox_public"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -192,6 +192,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/submitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
