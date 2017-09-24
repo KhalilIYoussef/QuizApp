@@ -71,6 +71,8 @@ int score=0;
                 {
                     score++;
                 }
+                else
+                    Toast.makeText(MainActivity.this, " please check the last question  : "+score, Toast.LENGTH_SHORT).show();
 
                 Toast.makeText(MainActivity.this, " Your Score is : "+score, Toast.LENGTH_SHORT).show();
                 score=0;
